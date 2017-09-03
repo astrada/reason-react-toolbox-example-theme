@@ -1,0 +1,32 @@
+{
+  "name": "reason-react-toolbox-example-theme",
+  "version": "0.1.0",
+  "description": "Example for reason-react-toolbox with component themes",
+  "repository": "https://github.com/astrada/reason-react-toolbox-example-theme.git",
+  "author": "Alessandro Strada",
+  "license": "MIT",
+  "scripts": {
+    "start": "bsb -make-world -w",
+    "js": "bsb -make-world",
+    "build": "webpack -w",
+    "clean": "bsb -clean-world",
+    "prepare": "npm link bs-platform"
+  },
+  "dependencies": {
+    "postcss": "^6.0.10",
+    "postcss-cssnext": "^3.0.2",
+    "postcss-each": "^0.10.0",
+    "postcss-import": "^10.0.0",
+    "postcss-mixins": "^6.1.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-toolbox": "^2.0.0-beta.12",
+    "reason-react": "^0.2.4"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.7",
+    "postcss-loader": "^2.0.6",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.5.5"
+  }
+}
