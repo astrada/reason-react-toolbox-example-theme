@@ -9,6 +9,7 @@ Shows how to use components with custom themes (using CSS Modules/cssnext).
 
 1. Install dependencies:
 
+       npm install --global bs-platform
        yarn install
 
 2. Start project compilation:
