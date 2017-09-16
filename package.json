@@ -1,6 +1,6 @@
 {
   "name": "reason-react-toolbox-example-theme",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Example for reason-react-toolbox with customizable components",
   "repository": "https://github.com/astrada/reason-react-toolbox-example-theme.git",
   "author": "Alessandro Strada",
