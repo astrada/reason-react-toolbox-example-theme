@@ -1,4 +1,4 @@
-external theme : Js.t {..} = "../../../src/successButton.css" [@@bs.module];
+external theme : Js.t {..} = "../../../src/SuccessButton.css" [@@bs.module];
 
 let component = ReasonReact.statelessComponent "SuccessButton";
 

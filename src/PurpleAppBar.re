@@ -1,4 +1,4 @@
-external theme : Js.t {..} = "../../../src/purpleAppBar.css" [@@bs.module];
+external theme : Js.t {..} = "../../../src/PurpleAppBar.css" [@@bs.module];
 
 let component = ReasonReact.statelessComponent "PurpleAppBar";
 
