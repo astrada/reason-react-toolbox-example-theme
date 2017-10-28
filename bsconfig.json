@@ -1,6 +1,5 @@
 {
   "name" : "reason-react-toolbox-example-theme",
-  "bsc-flags": ["-bs-super-errors"],
   "reason" : {"react-jsx" : 2},
   "bs-dependencies": [
     "reason-react",
