@@ -1,11 +1,11 @@
-let component = ReasonReact.statelessComponent "App";
+let component = ReasonReact.statelessComponent("App");
 
-let make _children => {
+let make = (_children) => {
   ...component,
-  render: fun _self =>
+  render: (_self) =>
     <div>
       <PurpleAppBar />
-      <section style=(ReactDOMRe.Style.make padding::"20px" ())>
+      <section style=(ReactDOMRe.Style.make(~padding="20px", ()))>
         <SuccessButton label="Success" primary=true raised=true />
         <ReactToolboxBundled.Button label="Primary Button" primary=true />
       </section>

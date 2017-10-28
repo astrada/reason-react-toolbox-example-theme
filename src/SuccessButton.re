@@ -1,8 +1,8 @@
-external theme : Js.t {..} = "../../../src/SuccessButton.css" [@@bs.module];
+[@bs.module] external theme : Js.t({..}) = "../../../src/SuccessButton.css";
 
-let component = ReasonReact.statelessComponent "SuccessButton";
+let component = ReasonReact.statelessComponent("SuccessButton");
 
-let make ::label ::primary ::raised _children => {
+let make = (~label, ~primary, ~raised, _children) => {
   ...component,
-  render: fun _self => <ReactToolbox.Button theme label primary raised />
+  render: (_self) => <ReactToolbox.Button theme label primary raised />
 };
