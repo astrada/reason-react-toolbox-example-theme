@@ -21,12 +21,12 @@
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-toolbox": "^2.0.0-beta.12",
-    "reason-react": "^0.2.4"
+    "reason-react": "^0.3.0"
   },
   "devDependencies": {
     "css-loader": "^0.28.7",
     "postcss-loader": "^2.0.6",
-    "reason-react-toolbox": "^0.3.0",
+    "reason-react-toolbox": "^0.4.0",
     "style-loader": "^0.18.2",
     "webpack": "^3.5.5"
   }
