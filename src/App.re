@@ -1,8 +1,8 @@
 let component = ReasonReact.statelessComponent("App");
 
-let make = (_children) => {
+let make = _children => {
   ...component,
-  render: (_self) =>
+  render: _self =>
     <div>
       <PurpleAppBar />
       <section style=(ReactDOMRe.Style.make(~padding="20px", ()))>
