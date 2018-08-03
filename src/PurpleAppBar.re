@@ -7,6 +7,6 @@ let make = _children => {
   render: _self =>
     <ReactToolboxBundled.AppBar theme>
       <Logo />
-      (ReasonReact.stringToElement("App example"))
+      (ReasonReact.string("App example"))
     </ReactToolboxBundled.AppBar>
 };
