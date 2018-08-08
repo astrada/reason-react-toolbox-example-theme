@@ -2,12 +2,12 @@
 # yarn lockfile v1
 
 
-"@astrada/reason-react-toolbox@^0.6.0":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@astrada/reason-react-toolbox/-/reason-react-toolbox-0.6.0.tgz#ada9e80e2e333f1d35b85f79ce35eeec855483d0"
+"@astrada/reason-react-toolbox@^0.6.1":
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/@astrada/reason-react-toolbox/-/reason-react-toolbox-0.6.1.tgz#6cbbf6ae9d83c0563de5ab891589c44bf55d70ce"
   dependencies:
     react-toolbox "2.0.0-beta.13"
-    reason-react "^0.4.2"
+    reason-react "^0.5.0"
 
 "@types/prop-types@^15.5.2":
   version "15.5.4"
@@ -3110,9 +3110,9 @@ readdirp@^2.0.0:
     readable-stream "^2.0.2"
     set-immediate-shim "^1.0.1"
 
-reason-react@^0.4.2:
-  version "0.4.2"
-  resolved "https://registry.yarnpkg.com/reason-react/-/reason-react-0.4.2.tgz#690d34e3e91a2585cdc5f58384b6c8ff653c32c1"
+reason-react@^0.5.0:
+  version "0.5.3"
+  resolved "https://registry.yarnpkg.com/reason-react/-/reason-react-0.5.3.tgz#10601809742fd991109ec9d69ad4baf2c3f17540"
   dependencies:
     react ">=15.0.0 || >=16.0.0"
     react-dom ">=15.0.0 || >=16.0.0"

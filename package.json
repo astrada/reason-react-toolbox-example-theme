@@ -1,6 +1,6 @@
 {
   "name": "reason-react-toolbox-example-theme",
-  "version": "0.4.2",
+  "version": "0.6.1",
   "description": "Example for reason-react-toolbox with customizable components",
   "repository": "https://github.com/astrada/reason-react-toolbox-example-theme.git",
   "author": "Alessandro Strada",
@@ -20,10 +20,10 @@
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-toolbox": "^2.0.0-beta.13",
-    "reason-react": "^0.4.2"
+    "reason-react": "^0.5.0"
   },
   "devDependencies": {
-    "@astrada/reason-react-toolbox": "^0.6.0",
+    "@astrada/reason-react-toolbox": "^0.6.1",
     "bs-platform": "^4.0.3",
     "css-loader": "^0.28.7",
     "postcss-loader": "^2.0.6",
